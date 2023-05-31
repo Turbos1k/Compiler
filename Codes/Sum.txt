@@ -1,0 +1,9 @@
+program sum;
+    var a,b,c : integer
+
+    begin
+        b := 525;
+        c := 245;
+        a := b + c;
+        write(a)
+    end.

@@ -1,0 +1,11 @@
+program Square;
+    var a,r : integer
+    var s,P : real
+
+begin
+    r := 20;
+    P := 3.14;
+    s := P * r * r;
+    write(s)
+end.
+

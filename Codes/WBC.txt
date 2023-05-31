@@ -1,0 +1,28 @@
+program TestWBC;
+var a,b,c : integer
+var h : real
+
+begin
+    write("test for Continue");
+    while (a < 20) do
+    begin
+        a := a + 1;
+        if ((a = 10) or ((a mod 2) = 1)) then
+            begin
+            continue
+            end;
+        write(a)
+    end;
+    a := 0;
+    write("test for Break");
+
+    while (a < 20) do
+    begin
+        a := a + 1;
+        if (a = 10) then
+            begin
+            break
+            end;
+        write(a)
+    end
+end.

@@ -1,0 +1,26 @@
+program Fibonacci;
+var a,b,c : integer
+var h : real
+
+procedure Fib (a: integer);
+    var num,c,d,e : integer
+    begin
+        c := 1;
+        d := 1;
+        while ( num < a ) do
+        begin
+            write(d);
+            e := c;
+            c := c + d;
+            d := e;
+            num := num + 1
+        end
+    end;
+
+begin
+    write("the first 15 numbers of the Fibonacci sequence");
+    a := 15;
+    Fib(a)
+end.
+
+

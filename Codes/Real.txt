@@ -1,0 +1,11 @@
+program Real;
+var a,b : integer
+var c : real
+
+begin
+    a := 20;
+    b := 7;
+    c := a / b;
+    write(c)
+end.
+
